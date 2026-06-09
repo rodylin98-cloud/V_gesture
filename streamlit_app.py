@@ -9,9 +9,9 @@ st.set_page_config(page_title="學生??專題：勝利手勢偵測", layout="wid
 
 # --- 側邊欄 (Sidebar) ---
 st.sidebar.header("📁 學生??基本資料")
-school = st.sidebar.text_input("高中名稱", "某某???高級中學")
-name = st.sidebar.text_input("學生姓名", "王小明???")
-interest = st.sidebar.text_area("興趣", "電腦視覺??、人工智慧??、手勢識別??")
+school = st.sidebar.text_input("高中名稱", "南大附中")
+name = st.sidebar.text_input("學生姓名", "林庭寬")
+interest = st.sidebar.text_area("興趣", "電腦視覺、人工智慧、手勢識別")
 
 st.sidebar.divider()
 
@@ -28,7 +28,7 @@ conf_threshold = st.sidebar.slider(
 st.sidebar.info(f"當前過濾：僅顯示置信度 ≥ {conf_threshold} 的結果")
 
 # --- 主畫面 (Main) ---
-st.title("✌️ 勝利手勢 (Victory ???? Gesture) 偵測系統")
+st.title("✌️ 勝利手勢 (Victory Gesture) 偵測系統")
 st.markdown(f"**開發者：** {school} - {name}")
 
 # 2. 載入模型
