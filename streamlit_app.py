@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title="學生林庭寬專題：勝利手勢偵測", layout="wide")
 
 # --- 側邊欄 (Sidebar) ---
-st.sidebar.header("📁 學生??基本資料")
+st.sidebar.header("📁 學生林庭寬基本資料")
 school = st.sidebar.text_input("高中名稱", "南大附中")
 name = st.sidebar.text_input("學生姓名", "林庭寬")
 interest = st.sidebar.text_area("興趣", "電腦視覺、人工智慧、手勢識別")
