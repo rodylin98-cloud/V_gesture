@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # 1. 頁面基本配置
-st.set_page_config(page_title="學生??專題：勝利手勢偵測", layout="wide")
+st.set_page_config(page_title="學生林庭寬專題：勝利手勢偵測", layout="wide")
 
 # --- 側邊欄 (Sidebar) ---
 st.sidebar.header("📁 學生??基本資料")
